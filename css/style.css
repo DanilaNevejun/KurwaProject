@@ -25,10 +25,9 @@ body {
     margin: 0 auto;
 }
 
-.nav {}
-
 .nav__list {
     display: flex;
+    justify-content: center;
 }
 
 .nav__list-item {
@@ -37,10 +36,7 @@ body {
     color: #703412;
 }
 
-.nav__list-item+.nav__list-item {
+.nav__list-item+.nav__list-item { 
     margin-left: 40px;
 }
 
-.nav__list-link {
-
-}
