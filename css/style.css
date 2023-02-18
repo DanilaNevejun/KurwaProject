@@ -1,0 +1,46 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1075px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.nav {}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__list-item {
+    font-size: 14px;
+    line-height: 21px;
+    color: #703412;
+}
+
+.nav__list-item+.nav__list-item {
+    margin-left: 40px;
+}
+
+.nav__list-link {
+
+}
