@@ -17,6 +17,8 @@ ul {
 body {
     font-family: 'Roboto';
     font-weight: 400;
+    color: #703412;
+    background-color: #FEFBF1;
 }
 
 .container {
@@ -28,15 +30,29 @@ body {
 .nav__list {
     display: flex;
     justify-content: center;
+    margin-bottom: 120px;
 }
 
 .nav__list-item {
     font-size: 14px;
     line-height: 21px;
-    color: #703412;
 }
 
 .nav__list-item+.nav__list-item { 
     margin-left: 40px;
 }
 
+.header__title{
+    margin-top: 20px;
+    margin-bottom: 120px;
+    font-weight: 400;
+    font-size: 80px;
+    max-width: 848px;
+}
+
+.header__text{
+    font-size: 32px;
+    font-weight: 400;
+    max-width: 571px;
+    margin-bottom: 194px;
+}
