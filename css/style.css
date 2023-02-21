@@ -96,3 +96,43 @@ body {
 .main__content {
     padding-bottom: 122px;
 }
+
+.footer {
+    background-color: #084935;
+    color: #fff;
+    min-height: 644px;
+}
+
+.contact {
+    color: #ffffff;
+    padding-top: 120px;
+    margin-bottom: 24px;
+}
+
+.footer__title {
+    max-width: 711px;
+    margin-bottom: 110px;
+}
+
+.footer__title span {
+    color: rgba(255, 255, 255, 0.72);
+}
+
+.footer__contacts {
+    display: flex;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.72);
+    margin-bottom: 81px;
+    margin-left: -40px;
+}
+
+.footer__contacts-bottom {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+   
+}
+
+
+.footer__container-text {
+    font-size: 16px;
+    margin-top: 36px;
+}
